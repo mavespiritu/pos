@@ -1,0 +1,29 @@
+{
+	"name": "mitrm/yii2-amcharts",
+	"description": "Yii2 extension for amcharts.com",
+	"version": "0.0.1",
+	"type": "yii2-extension",
+	"keywords": ["yii2", "amcharts", "charts"],
+	"homepage": "https://github.com/mitrm/yii2-amcharts",
+	"time": "2015-02-25",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mitskevich Ruslan",
+			"email": "mitrm.ru@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"source": "https://github.com/mitrm/yii2-amcharts"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"mitrm\\amcharts\\": ""
+		}
+	}
+}
