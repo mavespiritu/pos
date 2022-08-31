@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^pos\.toprankreviewacademy\.com$
+RewriteRule ^/?$ "http\:\/\/pos\.toprankreviewacademy\.com\/frontend\/web\/user\/login" [R=301,L]
+
